@@ -8,7 +8,7 @@
 OpenCore Hackintosh configuration example for the **Dell OptiPlex 7060 (SFF)** with an Intel® Core™ i7-8700. 
 <br>
 
-[![GitHub](https://img.shields.io/github/license/Coopydood/OpenCore-Z490E-CometLake?label=Licence&logo=unlicense&logoColor=white&style=for-the-badge)](https://github.com/Coopydood/OpenCore-Z490E-CometLake/blob/main/LICENSE) [![GitHub repo size](https://img.shields.io/github/repo-size/Coopydood/OpenCore-Z490E-CometLake?color=07b55b&label=Size&logo=envoy-proxy&logoColor=white&style=for-the-badge)](https://github.com/Coopydood/OpenCore-Z490E-CometLake) [![Discord](https://img.shields.io/discord/574943603466436628?color=7d86ff&label=Discord&logo=discord&logoColor=white&style=for-the-badge)](https://discord.gg/WzWkSsT)
+[![GitHub](https://img.shields.io/github/license/Coopydood/OpenCore-OptiPlex-7060?label=Licence&logo=unlicense&logoColor=white&style=for-the-badge)](https://github.com/Coopydood/OpenCore-OptiPlex-7060/blob/main/LICENSE) [![GitHub repo size](https://img.shields.io/github/repo-size/Coopydood/OpenCore-OptiPlex-7060?color=07b55b&label=Size&logo=envoy-proxy&logoColor=white&style=for-the-badge)](https://github.com/Coopydood/OpenCore-OptiPlex-7060) [![Discord](https://img.shields.io/discord/574943603466436628?color=7d86ff&label=Discord&logo=discord&logoColor=white&style=for-the-badge)](https://discord.gg/WzWkSsT)
 
 <br><br>
 
@@ -26,7 +26,7 @@ This is the version of OpenCore used, including bundled files. The included ``co
 
 ## macOS
 
-<img align="left" width="90" height="90" src="https://github.com/Coopydood/OpenCore-Z490E-CometLake/assets/39441479/aa49b5ba-6cca-4dab-bcfc-6bf21909e738">
+<img align="left" width="90" height="90" src="https://github.com/Coopydood/OpenCore-OptiPlex-7060/assets/39441479/aa49b5ba-6cca-4dab-bcfc-6bf21909e738">
 <!-- CHANGE THE IMAGE URL TO THE MAIN OS YOUR CONFIG TARGETS. IMAGE URL LIST BELOW! -->
 
 <img align="left" src="https://github.com/Coopydood/ultimate-macOS-KVM/assets/39441479/8f69f9b9-cf23-4e8b-adf3-95862a23e2ba" height=520 width=2 /> 
@@ -38,19 +38,19 @@ This is the version of macOS that this OpenCore configuration currently targets.
 
 #### Supported
 
-<img align="left" width="35" height="35" src="https://github.com/Coopydood/OpenCore-Z490E-CometLake/assets/39441479/4829ebb4-ce7f-4ecf-8309-d691c9361f6b"> 
+<img align="left" width="35" height="35" src="https://github.com/Coopydood/OpenCore-OptiPlex-7060/assets/39441479/4829ebb4-ce7f-4ecf-8309-d691c9361f6b"> 
 <h5>macOS Ventura</h5>
-<img align="left" width="35" height="35" src="https://github.com/Coopydood/OpenCore-Z490E-CometLake/assets/39441479/7d341cce-4370-4430-b3d5-bf1868afe4a3"> 
+<img align="left" width="35" height="35" src="https://github.com/Coopydood/OpenCore-OptiPlex-7060/assets/39441479/7d341cce-4370-4430-b3d5-bf1868afe4a3"> 
 <h5>macOS Monterey</h5>
-<img align="left" width="35" height="35" src="https://github.com/Coopydood/OpenCore-Z490E-CometLake/assets/39441479/79a7a051-0f5a-419e-8544-b51b1572d3b9"> 
+<img align="left" width="35" height="35" src="https://github.com/Coopydood/OpenCore-OptiPlex-7060/assets/39441479/79a7a051-0f5a-419e-8544-b51b1572d3b9"> 
 <h5>macOS Big Sur</h5>
-<img align="left" width="35" height="35" src="https://github.com/Coopydood/OpenCore-Z490E-CometLake/assets/39441479/cd8029e8-c256-4295-9908-37809d64dcfe"> 
+<img align="left" width="35" height="35" src="https://github.com/Coopydood/OpenCore-OptiPlex-7060/assets/39441479/cd8029e8-c256-4295-9908-37809d64dcfe"> 
 <h5>macOS Catalina</h5>
-<img align="left" width="35" height="35" src="https://github.com/Coopydood/OpenCore-Z490E-CometLake/assets/39441479/184bb2ef-c447-4cbd-b07c-8b4b096e3944"> 
+<img align="left" width="35" height="35" src="https://github.com/Coopydood/OpenCore-OptiPlex-7060/assets/39441479/184bb2ef-c447-4cbd-b07c-8b4b096e3944"> 
 <h5>macOS Mojave</h5>
-<img align="left" width="35" height="35" src="https://github.com/Coopydood/OpenCore-Z490E-CometLake/assets/39441479/bd4a791d-1ac2-4a9a-8ee0-22e4d5f88cd3"> 
+<img align="left" width="35" height="35" src="https://github.com/Coopydood/OpenCore-OptiPlex-7060/assets/39441479/bd4a791d-1ac2-4a9a-8ee0-22e4d5f88cd3"> 
 <h5>macOS High Sierra</h5>
-<img align="left" width="35" height="35" src="https://github.com/Coopydood/OpenCore-Z490E-CometLake/assets/39441479/788860d8-207a-4d15-928a-ed78f08962cf"> 
+<img align="left" width="35" height="35" src="https://github.com/Coopydood/OpenCore-OptiPlex-7060/assets/39441479/788860d8-207a-4d15-928a-ed78f08962cf"> 
 <h5>macOS Sierra</h5>
 
 <br>
