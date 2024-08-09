@@ -72,7 +72,7 @@ This is the version of macOS that this OpenCore configuration currently targets.
 
 ### Hardware
 
-- [x] iGPU (Intel HD Graphics 630)
+- [x] iGPU (Intel UHD Graphics 630)
 - [x] dGPU (AMD Radeon RX 550)
 - [x] SATA drive
 - [x] USB 3.1 (XHCI)
@@ -134,7 +134,7 @@ The specs of the main system that the OpenCore configuration targets.
 | **Generation**  |                           Coffee Lake                          |
 | **Memory**      |                       16 GB DDR4                       |
 | **Storage**     |                     500 GB SATA SSD                    |
-| **GPU**         | Intel HD Graphics 630<br>AMD Radeon RX 550 |
+| **GPU**         | Intel UHD Graphics 630<br>AMD Radeon RX 550 |
 | **NIC**         |                  Intel I219-LM                  |
 
 ***
