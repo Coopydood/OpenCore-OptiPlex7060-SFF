@@ -169,6 +169,21 @@ AMD Radeon RX 550
 | device-id                |   Data   | ``FF67`` |
 | model                    |   String | ``AMD Radeon RX 550`` |
 
+<details><summary><h4>📄  Show as property list data</h4><br><sup>Expand this if you want to copy and paste the entries above as <code>.plist</code> data!</summary>
+
+You can paste this data straight into plist editors like ProperTree.
+
+```xml
+<key>PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)</key>
+<dict>
+    <key>device-id</key>
+    <data>/2c=</data>
+    <key>model</key>
+    <string>AMD Radeon RX 550</string>
+</dict>
+```
+</details>
+
 > [!IMPORTANT]
 > The Dell OEM variant of the RX 550 uses the **Lexa** core. This does NOT officially have support in macOS... *or does it*? Simply masking it as the Baffin core version works perfectly! Just make sure to add the mask, as seen here.
 
@@ -184,6 +199,22 @@ Internal Speakers
 | device_type              |   String | ``Audio device`` |
 | layout-id                |   Data   | ``0B000000`` |
 
+<details><summary><h4>📄  Show as property list data</h4><br><sup>Expand this if you want to copy and paste the entries above as <code>.plist</code> data!</summary>
+
+You can paste this data straight into plist editors like ProperTree.
+
+```xml
+<key>PciRoot(0x0)/Pci(0x1F,0x3)</key>
+<dict>
+    <key>AAPL,slot-name</key>
+    <string>Internal</string>
+    <key>device_type</key>
+    <string>Audio device</string>
+    <key>layout-id</key>
+    <data>CwAAAA==</data>
+</dict>
+```
+</details><br>
 <br>
 
 ### PciRoot(0x0)/Pci(0x2,0x0)
@@ -198,6 +229,26 @@ Intel UHD Graphics 630
 | framebuffer-stolenmem    	|   Data   	|        ``00003001``       	|
 | enable-metal             	|   Data   	|        ``01000000``       	|
 
+<details><summary><h4>📄  Show as property list data</h4><br><sup>Expand this if you want to copy and paste the entries above as <code>.plist</code> data!</summary>
+
+You can paste this data straight into plist editors like ProperTree.
+
+```xml
+<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
+<dict>
+    <key>AAPL,ig-platform-id</key>
+    <data>AACSPg==</data>
+    <key>device-id</key>
+    <data>mz4AAA==</data>
+    <key>enable-metal</key>
+    <data>AQAAAA==</data>
+    <key>framebuffer-patch-enable</key>
+    <data>AQAAAA==</data>
+    <key>framebuffer-stolenmem</key>
+    <data>AAAwAQ==</data>
+</dict>
+```
+</details><br>
 <br>
 
 
@@ -278,6 +329,39 @@ Contents stored in NVRAM.
 | prev-lang-diags:kbd       |   Data   |                                 ``656E2D47 42``                                |
 | prev-lang:kbd             |   Data   |                               ``656E2D47 423A32``                              |                                      |
 | StartupMute               |   Data   |                                     ``00``                                     |
+
+<details><summary><h4>📄  Show as property list data</h4><br><sup>Expand this if you want to copy and paste the entries above as <code>.plist</code> data!</summary>
+
+You can paste this data straight into plist editors like ProperTree.
+
+```xml
+<key>4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14</key>
+<dict>
+    <key>DefaultBackgroundColor</key>
+    <data>AAAAAA==</data>
+</dict>
+<key>4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</key>
+<dict>
+    <key>rtc-blacklist</key>
+    <data></data>
+</dict>
+<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
+<dict>
+    <key>SystemAudioVolume</key>
+    <data>Rg==</data>
+    <key>boot-args</key>
+    <string>keepsyms=1 debug=0x100 alcid=11 -cdfon -igfxmpc -igfxcdc igfxrpsc=1 revpatch=sbvmm</string>
+    <key>prev-lang-diags:kbd</key>
+    <data>ZW4tR0I=</data>
+    <key>prev-lang:kbd</key>
+    <data>ZW4tR0I6Mg==</data>
+    <key>csr-active-config</key>
+    <data>AAAAAA==</data>
+    <key>run-efi-updater</key>
+    <string>No</string>
+</dict>
+```
+</details><br>
 
 ***
 
