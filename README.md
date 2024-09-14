@@ -136,7 +136,7 @@ The specs of the main system that the OpenCore configuration targets.
 | **Chipset**     |                             OptiPlex 7060 SFF                            |
 | **Generation**  |                           Coffee Lake                          |
 | **Memory**      |                       16 GB DDR4                       |
-| **Storage**     |                     500 GB SATA SSD                    |
+| **Storage**     |                     256 GB NVMe SSD                    |
 | **GPU**         | Intel UHD Graphics 630<br>AMD Radeon RX 550 |
 | **NIC**         |                  Intel I219-LM                  |
 
