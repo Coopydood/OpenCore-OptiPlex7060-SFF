@@ -77,6 +77,7 @@ This is the version of macOS that this OpenCore configuration currently targets.
 
 - [x] iGPU (Intel UHD Graphics 630)
 - [x] dGPU (AMD Radeon RX 550)
+- [x] NVMe drive
 - [x] SATA drive
 - [x] USB 3.1 (XHCI)
 - [x] Ethernet
