@@ -224,7 +224,7 @@ Intel UHD Graphics 630
 
 | **Key**                  	| **Type** 	| **Value**                 	|
 |--------------------------	|:----------:|:---------------------------:|
-| AAPL,ig-platform-id      	|   Data   	|        ``0000923E``       	|
+| AAPL,ig-platform-id      	|   Data   	|        ``07009B3E``       	|
 | device-id                	|   Data   	|        ``9B3E0000``       	|
 | framebuffer-patch-enable 	|   Data   	|        ``01000000``       	|
 | framebuffer-stolenmem    	|   Data   	|        ``00003001``       	|
@@ -237,19 +237,23 @@ You can paste this data straight into plist editors like ProperTree.
 ```xml
 <key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 <dict>
-    <key>AAPL,ig-platform-id</key>
-    <data>AACSPg==</data>
-    <key>device-id</key>
-    <data>mz4AAA==</data>
-    <key>enable-metal</key>
-    <data>AQAAAA==</data>
-    <key>framebuffer-patch-enable</key>
-    <data>AQAAAA==</data>
-    <key>framebuffer-stolenmem</key>
-    <data>AAAwAQ==</data>
+  <key>AAPL,ig-platform-id</key>
+  <data>BwCbPg==</data>
+  <key>device-id</key>
+  <data>mz4AAA==</data>
+  <key>enable-metal</key>
+  <data>AQAAAA==</data>
+  <key>framebuffer-patch-enable</key>
+  <data>AQAAAA==</data>
+  <key>framebuffer-stolenmem</key>
+  <data>AAAwAQ==</data>
 </dict>
 ```
-</details><br>
+</details>
+
+> [!NOTE]
+> A new framebuffer, ``07009B3E``, is being used as it is better fitted for desktops.
+
 <br>
 
 
