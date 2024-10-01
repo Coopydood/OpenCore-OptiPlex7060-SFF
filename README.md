@@ -141,6 +141,20 @@ The specs of the main system that the OpenCore configuration targets.
 | **GPU**         | Intel UHD Graphics 630<br>AMD Radeon RX 550 |
 | **NIC**         |                  Intel I219-LM                  |
 
+### Geekbench Scores
+
+| **Intel Core i7-8700** 	| **Linux** 	| **macOS** 	|
+|------------------------	|-----------	|-----------	|
+| Single Core            	| 1,663     	| 1,484     	|
+| Muti Core              	| 6,472     	| 6,115     	|
+
+| **GPU**                   | **Linux**<br>Vulkan | **macOS**<br>Metal |
+|---------------------------|---------------------|--------------------|
+| AMD<br>Radeon RX 550      | 14,590              | 13,281             |
+| Intel<br>UHD 630 Graphics | 5,659               | 4,549              |
+
+<br>
+
 ***
 
 ## ACPI
