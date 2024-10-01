@@ -70,6 +70,7 @@ This is the version of macOS that this OpenCore configuration currently targets.
 
 ### macOS
 
+- [x] macOS Sequoia
 - [x] macOS Sonoma
 
 ### Hardware
