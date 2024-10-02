@@ -150,7 +150,7 @@ The specs of the main system that the OpenCore configuration targets.
 
 | **GPU**                   | **Linux**<br>Vulkan | **macOS**<br>Metal |
 |---------------------------|---------------------|--------------------|
-| AMD<br>Radeon RX 550      | 14,590              | 13,281             |
+| AMD<br>Radeon RX 550      | 14,590              | 17,502             |
 | Intel<br>UHD 630 Graphics | 5,659               | 4,549              |
 
 <br>
